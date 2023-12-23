@@ -32,7 +32,7 @@ body{
 }
 
 .fireworks:before, .fireworks:after{
-  position: relative;
+  position: absolute;
   z-index: 10;
   content: '';
   width: 5px;
