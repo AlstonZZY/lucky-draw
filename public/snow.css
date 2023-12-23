@@ -8,7 +8,8 @@
 }
 
 .fireworks:before, .fireworks:after{
-  position: absolute;
+  position: relative;
+  z-index: 10;
   content: '';
   width: 5px;
   height: 5px;
