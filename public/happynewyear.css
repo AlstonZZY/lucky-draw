@@ -15,9 +15,11 @@ h1:before, h1:after {
 }
 h1:before {
   margin-right: 0.5em;
+  margin-top: 0.5em;
 }
 h1:after {
   margin-left: 0.5em;
+  margin-bottom: 0.5em;
 }
 @-webkit-keyframes my {
     0%   {color: #2e2f92;}
