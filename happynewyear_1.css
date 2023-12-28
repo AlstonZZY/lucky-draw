@@ -10,7 +10,7 @@
   flex-direction: column;
   padding: 0;
   margin: 0;
-  height: 10vh;
+  height: 100%;
   display: grid;
   place-items: center;
   overflow: hidden;
