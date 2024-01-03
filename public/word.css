@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  .message {
+    font-weight: bold;
+    font-size: 6rem;
+    color: white;
+    white-space: break-word;
+    text-align: center;
+    color: transparent;
+    background: #333;
+    font-family: "Clicker Script", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding: 1rem;
+  }
+  
+  .breathe:nth-of-type(1) {
+    -webkit-animation-delay: 0.125s;
+            animation-delay: 0.125s;
+    text-shadow: -21px 0 20px;
+  }
+  
+  .breathe:nth-of-type(2) {
+    -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+    text-shadow: -18px 0 20px;
+  }
+  
+  .breathe:nth-of-type(3) {
+    -webkit-animation-delay: 0.375s;
+            animation-delay: 0.375s;
+    text-shadow: -15px 0 20px;
+  }
+  
+  .breathe:nth-of-type(4) {
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    text-shadow: -12px 0 20px;
+  }
+  
+  .breathe:nth-of-type(5) {
+    -webkit-animation-delay: 0.625s;
+            animation-delay: 0.625s;
+    text-shadow: -9px 0 20px;
+  }
+  
+  .breathe:nth-of-type(6) {
+    -webkit-animation-delay: 0.75s;
+            animation-delay: 0.75s;
+    text-shadow: -6px 0 20px;
+  }
+  
+  .breathe:nth-of-type(7) {
+    -webkit-animation-delay: 0.875s;
+            animation-delay: 0.875s;
+    text-shadow: -3px 0 20px;
+  }
+  
+  .breathe:nth-of-type(8) {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    text-shadow: 0px 0 20px;
+  }
+  
+  .breathe:nth-of-type(9) {
+    -webkit-animation-delay: 1.125s;
+            animation-delay: 1.125s;
+    text-shadow: 3px 0 20px;
+  }
+  
+  .breathe:nth-of-type(10) {
+    -webkit-animation-delay: 1.25s;
+            animation-delay: 1.25s;
+    text-shadow: 6px 0 20px;
+  }
+  
+  .breathe:nth-of-type(11) {
+    -webkit-animation-delay: 1.375s;
+            animation-delay: 1.375s;
+    text-shadow: 9px 0 20px;
+  }
+  
+  .breathe:nth-of-type(12) {
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+    text-shadow: 12px 0 20px;
+  }
+  
+  .breathe:nth-of-type(13) {
+    -webkit-animation-delay: 1.625s;
+            animation-delay: 1.625s;
+    text-shadow: 15px 0 20px;
+  }
+  
+  .breathe:nth-of-type(14) {
+    -webkit-animation-delay: 1.75s;
+            animation-delay: 1.75s;
+    text-shadow: 18px 0 20px;
+  }
+  
+  .breathe:nth-of-type(15) {
+    -webkit-animation-delay: 1.875s;
+            animation-delay: 1.875s;
+    text-shadow: 21px 0 20px;
+  }
+  
+  .breathe:nth-of-type(16) {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    text-shadow: 24px 0 20px;
+  }
+  .breathe:nth-of-type(17) {
+    -webkit-animation-delay: 2.125s;
+            animation-delay: 2.125s;
+    text-shadow: 27px 0 20px;
+  }
+  .breathe:nth-of-type(18) {
+    -webkit-animation-delay: 2.25s;
+            animation-delay: 2.25s;
+    text-shadow: 30px 0 20px;
+  }
+  .breathe:nth-of-type(19) {
+    -webkit-animation-delay: 2.375s;
+            animation-delay: 2.375s;
+    text-shadow: 33px 0 20px;
+  }
+  .breathe:nth-of-type(20) {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+    text-shadow: 37px 0 20px;
+  }
+  .breathe:nth-of-type(21) {
+    -webkit-animation-delay: 2.625s;
+            animation-delay: 2.625s;
+    text-shadow: 40px 0 20px;
+  }
+  .breathe:nth-of-type(22) {
+    -webkit-animation-delay: 2.75s;
+            animation-delay: 2.75s;
+    text-shadow: 43px 0 20px;
+  }
+  .breathe:nth-of-type(23) {
+    -webkit-animation-delay: 2.875s;
+            animation-delay: 2.875s;
+    text-shadow: 47px 0 20px;
+  }
+  .breathe:nth-of-type(24) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    text-shadow: 50px 0 20px;
+  }
+  
+  @-webkit-keyframes breathe {
+    12.5% {
+      color: white;
+    }
+  }
+  
+  @keyframes breathe {
+    12.5% {
+      color: white;
+    }
+  }
+  .breathe {
+    -webkit-animation: breathe 4s ease infinite;
+            animation: breathe 4s ease infinite;
+  }
+  
+  /*
+  .sandeep {
+    background: linear-gradient(to top left, red, yellow);
+    -webkit-background-clip: text;
+    font-size: 3rem;
+  }
+  */
+  
+  @media screen and (max-width: 768px) {
+    .breathe {
+      font-size: 5rem;
+    }
+  }
