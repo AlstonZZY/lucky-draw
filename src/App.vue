@@ -35,6 +35,7 @@
             class="itemres"
             :style="resCardStyle"
             :data-id="item"
+            :data-id="item" /******************************/
             @click="showRes = false"
             :class="{
               numberOver:
