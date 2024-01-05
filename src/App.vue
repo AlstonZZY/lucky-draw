@@ -32,9 +32,11 @@
           <span
             v-for="item in resArr"
             :key="item"
+            :key="item"<!---->
             class="itemres"
             :style="resCardStyle"
-            :data-id="item"            
+            :data-id="item" 
+            :data-id="item" <!---->
             @click="showRes = false"
             :class="{
               numberOver:
