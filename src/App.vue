@@ -52,7 +52,7 @@
                 {{ list.find((d) => d.key === item).name }}
               </span>
 
-
+<!--
 <span class="cont" v-if="!photos.find((d) => d.id === item)">
               <span
                 v-if="!!list.find((d) => d.key === item)"
@@ -62,7 +62,7 @@
               >
                 {{ list.find((d) => d.key === item).name }}
               </span>
-
+-->
               
               <span v-else>
                 {{ item }}
