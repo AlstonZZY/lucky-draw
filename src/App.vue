@@ -32,11 +32,9 @@
           <span
             v-for="item in resArr"
             :key="item"
-            :key="item"<!---->
             class="itemres"
             :style="resCardStyle"
-            :data-id="item" 
-            :data-id="item" <!---->
+            :data-id="item"
             @click="showRes = false"
             :class="{
               numberOver:
@@ -53,6 +51,19 @@
               >
                 {{ list.find((d) => d.key === item).name }}
               </span>
+
+
+<span class="cont" v-if="!photos.find((d) => d.id === item)">
+              <span
+                v-if="!!list.find((d) => d.key === item)"
+                :style="{
+                  fontSize: '40px',
+                }"
+              >
+                {{ list.find((d) => d.key === item).name }}
+              </span>
+
+              
               <span v-else>
                 {{ item }}
               </span>
