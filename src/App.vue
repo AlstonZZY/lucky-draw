@@ -46,7 +46,7 @@
               <span
                 v-if="!!list.find((d) => d.key === item)"
                 :style="{
-                  fontSize: '40px',
+                  fontSize: '80px',
                 }"
               >
                 {{ list.find((d) => d.key === item).name }}
@@ -486,14 +486,14 @@ export default {
     }
     &.numberOver::before {
       content: attr(data-id);
-      width: 30px;
-      height: 22px;
+      width: 50px;
+      height: 50px;
       line-height: 22px;
       background-color: #fff;
       position: absolute;
       bottom: 0;
       left: 0;
-      font-size: 14px;
+      font-size: 30px;
       // border-radius: 50%;
       z-index: 1;
     }
