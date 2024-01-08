@@ -74,7 +74,20 @@
           font-weight:bold;
           line-height:120px}
 #resbox .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap}
-#resbox .itemres{background:#fff;width:160px;height:160px;border-radius:4px;border:1px solid #ccc;line-height:160px;font-weight:700;margin-right:20px;margin-bottom:20px;cursor:pointer;position:relative}
+#resbox .itemres{
+            background:#fff;
+            width:360px;
+            height:260px;
+            border-radius:4px;
+            border:2px solid #3B028B;
+            line-height:160px;
+            font-weight:700;
+            margin-right:20px;
+            margin-bottom:20px;
+            cursor:pointer;
+            position:relative}
+
+
 #resbox .itemres,#resbox .itemres .cont{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 #resbox .itemres.numberOver:before{content:attr(data-id);width:30px;height:22px;line-height:22px;background-color:#fff;position:absolute;bottom:0;left:0;font-size:14px;z-index:1}
 
