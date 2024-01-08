@@ -22,7 +22,7 @@
 #tool{
     position:fixed;
     width:60px;
-    top:20%;
+    top:80%;
     right:20px;
     -webkit-transform:translateY(-50%);
     transform:translateY(-50%);
@@ -92,14 +92,14 @@
 #resbox .itemres,#resbox .itemres .cont{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 #resbox .itemres.numberOver:before{
     content:attr(data-id);
-    width:50px;
-    height:52px;
+    width:80px;
+    height:80px;
     line-height:22px;
     background-color:#fff;
     position:absolute;
     bottom:0;
     left:0;
-    font-size:30px;
+    font-size:50px;
     z-index:1}
 
 body,html{height:100%;font-size:14px;font-family:PingFang SC,Microsoft YaHei,微软雅黑,Tahoma,Arial,HeiTi,黑体,sans-serif}
