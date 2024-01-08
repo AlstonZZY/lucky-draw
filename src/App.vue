@@ -491,7 +491,7 @@ export default {
       line-height: 22px;
       background-color: #fff;
       position: absolute;
-      bottom: 5;
+      bottom: 0;
       left: 0;
       font-size: 30px;
       // border-radius: 50%;
