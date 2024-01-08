@@ -67,10 +67,10 @@
 #root .bounce-leave-active{animation:bounce-in 0s reverse}
 #main{height:100%}
 #resbox{position:absolute;top:50%;left:50%;width:1280px;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center}
-#resbox p{-webkit-text-stroke: 2.5px #fff; 
-          font-family: KaiTi;
-          color:#ce361f;
-          font-size:70px;
+#resbox p{-webkit-text-stroke: 3px #fdfbc9; 
+          font-family: SimHei;
+          color:#3B028B;
+          font-size:80px;
           font-weight:bold;
           line-height:120px}
 #resbox .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap}
