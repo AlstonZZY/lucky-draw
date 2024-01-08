@@ -18,10 +18,11 @@
 .c-Importphoto .selectbg .upload{opacity:0;z-index:10}
 .c-Importphoto .photo img{border:1px solid #ccc}
 .c-Importphoto .photo span{display:inline-block;border:1px solid #ccc;border-radius:2px;width:140px;height:140px;line-height:140px;text-align:center;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box}
+
 #tool{
     position:fixed;
     width:60px;
-    top:50%;
+    top:20%;
     right:20px;
     -webkit-transform:translateY(-50%);
     transform:translateY(-50%);
@@ -91,8 +92,8 @@
 #resbox .itemres,#resbox .itemres .cont{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 #resbox .itemres.numberOver:before{
     content:attr(data-id);
-    width:30px;
-    height:22px;
+    width:50px;
+    height:52px;
     line-height:22px;
     background-color:#fff;
     position:absolute;
