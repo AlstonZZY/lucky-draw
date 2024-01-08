@@ -77,7 +77,7 @@
 #resbox .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap}
 #resbox .itemres{
             background:#fff;
-            width:400px;
+            width:500px;
             height:260px;
             border-radius:12px;
             border:2px solid #3B028B;
