@@ -486,8 +486,8 @@ export default {
     }
     &.numberOver::before {
       content: attr(data-id);
-      width: 50px;
-      height: 50px;
+      width: 30px;
+      height: 22px;
       line-height: 22px;
       background-color: #fff;
       position: absolute;
