@@ -89,7 +89,17 @@
 
 
 #resbox .itemres,#resbox .itemres .cont{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-#resbox .itemres.numberOver:before{content:attr(data-id);width:30px;height:22px;line-height:22px;background-color:#fff;position:absolute;bottom:0;left:0;font-size:14px;z-index:1}
+#resbox .itemres.numberOver:before{
+    content:attr(data-id);
+    width:30px;
+    height:22px;
+    line-height:22px;
+    background-color:#fff;
+    position:absolute;
+    bottom:0;
+    left:0;
+    font-size:30px;
+    z-index:1}
 
 body,html{height:100%;font-size:14px;font-family:PingFang SC,Microsoft YaHei,微软雅黑,Tahoma,Arial,HeiTi,黑体,sans-serif}
 li{list-style:none}
