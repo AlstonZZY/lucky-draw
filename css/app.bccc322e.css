@@ -22,7 +22,7 @@
 #tool{
     position:fixed;
     width:60px;
-    top:25%;
+    top:50%;
     right:20px;
     -webkit-transform:translateY(-50%);
     transform:translateY(-50%);
