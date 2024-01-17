@@ -31,7 +31,7 @@
             :step="1"
           ></el-input>
         </el-form-item>
-        <el-form-item label="一等獎：九陽破壁多功能豆漿機">
+        <el-form-item label="一等獎：長榮航空LAX-TPE往返機票 一張">
           <el-input
             type="number"
             v-model="form.firstPrize"
