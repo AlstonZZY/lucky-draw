@@ -23,7 +23,7 @@
     position:fixed;
     width:60px;
     /*top:50%;*/
-    bottom: 30%;
+    bottom: 20%;
     right:20px;
     -webkit-transform:translateY(-50%);
     transform:translateY(-50%);
