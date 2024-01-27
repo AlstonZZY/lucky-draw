@@ -68,7 +68,7 @@
 #root .bounce-enter-active{-webkit-animation:bounce-in 1.5s;animation:bounce-in 1.5s}
 #root .bounce-leave-active{animation:bounce-in 0s reverse}
 #main{height:100%}
-#resbox{position:absolute;top:50%;left:50%;width:1380px;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center}
+#resbox{position:absolute;top:50%;left:50%;width:1480px;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center}
 #resbox p{-webkit-text-stroke: 3px #fdfbc9; 
           font-family: SimHei;
           color:#3B028B;
