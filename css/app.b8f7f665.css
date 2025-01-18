@@ -71,10 +71,10 @@
 #resbox{position:absolute;top:50%;left:50%;width:1280px;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center}
 #resbox p{-webkit-text-stroke: 3px #fdfbc9; 
           font-family: SimHei;
-          -webkit-text-fill-color:#3B028B;
-          font-size:50px;
+          -webkit-text-fill-color:#e20011;
+          font-size:60px;
           font-weight:bold;
-          line-height:120px} /*显示结果时的字体参数*/       
+          line-height:120px} /*抽奖结果的文字显示参数*/       
 
 
 
