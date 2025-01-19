@@ -41,7 +41,7 @@ export function conversionCategoryName(key) {
   let name = '';
   switch (key) {
     case 'firstPrize':
-      name = '一等獎：長榮航空LAX至TPE豪華經濟艙機票一張';
+      name = '十等獎：H Mart $100 代金禮券';
       break;
     default:
       break;
