@@ -31,7 +31,7 @@
             :step="1"
           ></el-input>
         </el-form-item>
-        <el-form-item label="頭獎：長榮航空LAX至TPE來回豪經艙機票一張">
+        <el-form-item label="十等獎：H Mart $100 代金禮券">
           <el-input
             type="number"
             v-model="form.firstPrize"
