@@ -6,7 +6,7 @@
 .c-Publicity .item{text-align:center;color:#fff;font-size:16px}
 .c-Publicity .item .title{color:#ccc}
 .c-Publicity .item .value{margin-left:10px}
-.c-Publicity .item.actiname .title{color:red;font-size:20px}
+.c-Publicity .item.actiname .title{color:red;font-size:20px; opacity: 0.0;}/*增加了opacity透明度*/
 .c-Importphoto .el-dialog{height:380px}
 .c-Importphoto label{margin-right:20px;vertical-align:top}
 .c-Importphoto .el-input{width:140px}
