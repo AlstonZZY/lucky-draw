@@ -69,9 +69,9 @@
 #root .bounce-leave-active{animation:bounce-in 0s reverse}
 #main{height:100%}
 #resbox{position:absolute;top:50%;left:50%;width:1350px;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center}
-#resbox p{-webkit-text-stroke: 2px #fdfbc9; 
+#resbox p{-webkit-text-stroke: 2px #e20011; 
           font-family: SimHei;
-          -webkit-text-fill-color:#e20011;
+          -webkit-text-fill-color:#fdfbc9;
           font-size:60px;
           font-weight:bold;
           line-height:120px} /*抽奖结果的文字显示参数*/       
